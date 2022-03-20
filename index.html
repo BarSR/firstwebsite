@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+    <script src="../dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="emergency.html">Emergency Services</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carmel.jpg" width="2575px" height="500px" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Explore Israel's Nature sites.</h1>
+                            <p><a class="btn btn-lg btn-primary" href="https://www.tripadvisor.com/Attractions-g293977-Activities-c57-t68-Israel.html">View</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/eilat.jpg" width="2575px" height="500px" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Expirience Eilat's unique View.</h1>
+                            <p>We also recommend Scuba or Snorkel diving.</p>
+                            <p><a class="btn btn-lg btn-primary" href="https://www.tourhq.com/israel/eilat-tours-guide?gclid=CjwKCAjwlcaRBhBYEiwAK341ja_1ZN8cPvUoHJoNTNJHCYQbahNGyG8x_Bq_2TVdxbDZ_Be3SxXhOhoCVyYQAvD_BwE">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/resturant.jpg" width="2575px" height="500px" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Explore israel's finest restaurants.</h1>
+                            <p><a class="btn btn-lg btn-primary" href="https://www.touristisrael.com/best-restaurants-israel/21818/">Browse</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/person.jpg" class="rounded-circle" width="140" height="140"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                    </svg>
+
+                    <h2>Tour Guide</h2>
+                    <p>Rent our Tour Guide crew for a special exprience in Israel.</p>
+                    <p><a class="btn btn-secondary" href="https://www.tourhq.com/israel-tours-guide?gclid=CjwKCAjwlcaRBhBYEiwAK341jYiD6eakOoDz-NlcZ7zvXh-l-oAa25wjxaKDgI8jgTMuj77t5DiawBoCvlMQAvD_BwE">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/tesla3.jpg" class="rounded-circle" width="140" height="140"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                    </svg>
+
+                    <h2>Car Rental</h2>
+                    <p>Located in Tel Aviv, Hertzelia, Haifa and Eilat.</p>
+                    <p><a class="btn btn-secondary" href="https://www.kayak.com/Israel-Car-Rentals.117.crc.html?r9ck=iq&gclid=CjwKCAjwlcaRBhBYEiwAK341jQ4k5wRtbTN1-huSx5pLZAjcY9zzkR054UZ_2CoIKjTIOPMlZc70FRoCVbUQAvD_BwE">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/hotel.jpg" class="rounded-circle" width="140" height="140"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                    </svg>
+
+                    <h2>Hotels</h2>
+                    <p>Rent a room in Israel finest hotels.</p>
+                    <p><a class="btn btn-secondary" href="https://www.hotels.co.il/en/">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">The Dead Sea. <span class="text-muted"></span></h2>
+                    <p class="lead">The Dead Sea, known in Hebrew as Yam Ha-Melakh (the Sea of Salt) is the lowest point
+                        on earth. It’s surrounded by the stunning landscape of the Negev Desert. The shores of the Dead
+                        Sea are the lowest point on the surface of the earth. The saline waters of the lake means no
+                        fish can survive in the salty waters, hence the name. The other result of the salty water is
+                        their renowned health and healing properties of the mud. You can also float naturally in them.
+                        There are tours to the Dead Sea available from across Israel which allow you to experience this
+                        yourself. Alternatively, staying at a Dead Sea Hotel provides additional spa and treatment
+                        experiences..</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/deadsea2.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg"
+                        role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Eilat's scuba sights. <span class="text-muted"></span></h2>
+                    <p class="lead">Eilat is one of Israel’s most popular tourist attractions, and it’s no wonder why.
+                        Israelis and foreigners alike flock here throughout the year due to its array of dreamy beaches,
+                        crystal-clear waters and diverse sea life that includes a dolphin population and breathtaking
+                        coral formations. It should come as no surprise, then, that scuba diving is the city’s
+                        specialty.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="images/scuba.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Tel Aviv's Nightlife. <span class="text-muted"></span></h2>
+                    <p class="lead">A city that never sleeps needs a high dose of adrenaline pumping through it at all
+                        times to stay awake. Whether that adrenaline comes from excellent sugar-infused cocktails, 3
+                        a.m. eats, or head throbbing Tel Aviv clubs that go past the wee hours of the morn and right
+                        into Israeli breakfast time, is irrelevant. What is relevant is the abundance of options once
+                        the sun sets. That’s why we’ve rounded up the best of the best on Dizengoff, Allenby, Rothschild
+                        and more for the ultimate nocturnal guide to Tel Aviv nightlife. Are you up to the challenge?
+                        See how many can you tackle in one night.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/nightlife.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg"
+                        role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
